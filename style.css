@@ -34,11 +34,14 @@ nav ul
 {
 	margin: 0px;
 	padding: 5px 0px 5px 30px;
+	list-style-type: none;
+
 }
 
 nav li
 {
 	margin-right: 40px;
+	float: left;
 }
 
 nav li a
@@ -63,6 +66,7 @@ article
 	clear: both;
 	overflow: auto;
 	width: 98%;
+	text-align: justify;
 }
 
 hgroup
@@ -91,6 +95,15 @@ aside section a
 	display: block;
 	padding: 10px;
 	border-bottom: 3px solid #eeeeee;
+	width: 230px;
+	padding-left: 20px;
+	float: right;
+}
+
+aside a{
+	color: #de6581;
+	text-decoration: none;
+	
 }
 
 aside section a:hover
@@ -134,4 +147,12 @@ section.contpage
 {
 	text-align: center;
 	font-size: 20px;
+}
+
+header{
+	height: 200px;
+}
+
+h1, h2, h3{
+	font-weight: normal;
 }
